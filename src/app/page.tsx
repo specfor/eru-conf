@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Timeline from "@/components/Timeline";
 import Guidelines from "@/components/Guidelines";
 import Awards from "@/components/Awards";
+import Gallery from "@/components/Gallery";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Timeline />
         <Guidelines />
         <Awards />
+        <Gallery />
         <Team />
       </main>
       <Footer />

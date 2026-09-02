@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import eruLogo from '../images/eru-logo.png';
 import './About.css';
 
 export default function About() {
@@ -12,14 +14,14 @@ export default function About() {
         <div className="flex flex-col justify-center items-center gap-8">
           <div className="about-logo-wrapper">
             <div className="about-logo-glow"></div>
-            <img src="https://placehold.co/280x230/450a0a/fff?text=ERU+Logo" alt="ERU logo" width={280} height={230} className="about-logo" />
+            <Image src={eruLogo} alt="ERU logo" width={280} height={230} className="about-logo" style={{ objectFit: 'contain' }} />
           </div>
           
           <p className="about-description text-center">
             <span className="font-bold text-primary">ERU Research Symposium-2025</span> is organized as an event parallel to the University of Moratuwa Research Week. ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-4xl mt-12">
             <div className="about-card">
               <div className="about-card-icon">🎓</div>
               <h3>Academics</h3>

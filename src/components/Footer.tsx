@@ -46,7 +46,6 @@ export default function Footer() {
         
         <div className="flex flex-col md:flex-row justify-between items-center footer-bottom">
           <p>© 2025 ERU Symposium. All rights reserved.</p>
-          <p>Designed &amp; Developed with ❤️ by Anushka Subasinghe</p>
         </div>
       </div>
     </footer>

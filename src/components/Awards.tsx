@@ -40,7 +40,7 @@ export default function Awards() {
           <div className="divider bg-white"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
           {awards.map((award, index) => (
             <div key={index} className="award-card glass">
               <div className="award-icon">{award.icon}</div>
