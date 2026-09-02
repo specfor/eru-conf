@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import uniLogo from '../images/uni-logo.png';
 import './Footer.css';
 
 export default function Footer() {
@@ -9,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-4 mb-6">
               <div className="footer-logo-box">
-                <img src="https://placehold.co/80x80/fff/333?text=Logo" alt="ERU symposium 2025" width={80} height={80} />
+                <Image src={uniLogo} alt="ERU symposium 2025" style={{ width: 'auto', height: '80px', objectFit: 'cover' }} />
               </div>
               <h2 className="footer-title">ERU Symposium</h2>
             </div>

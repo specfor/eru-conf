@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import uniLogo from '../images/uni-logo.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -6,7 +8,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 logo-link">
-          <img src="https://placehold.co/50x50" alt="University of Moratuwa logo" width={50} height={50} />
+          <Image src={uniLogo} alt="University of Moratuwa logo" style={{ width: 'auto', height: '50px', objectFit: 'cover' }} />
           <h1 className="logo-text">ERU</h1>
         </Link>
         <nav className="hidden-mobile">
