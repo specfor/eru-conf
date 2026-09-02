@@ -1,0 +1,124 @@
+.bg-yellow {
+  background: linear-gradient(to right, var(--color-accent-dark), var(--color-primary));
+}
+
+.timeline-container {
+  position: relative;
+  width: 100%;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-content {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .timeline-content {
+    display: block;
+    width: 24rem;
+  }
+  .timeline-content.left {
+    text-align: right;
+    padding-right: 2rem;
+  }
+  .timeline-content.right {
+    padding-left: 2rem;
+  }
+}
+
+.timeline-card, .timeline-card-desktop {
+  background: linear-gradient(to right, var(--color-bg-alt), var(--color-bg));
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.3s ease;
+}
+
+.group:hover .timeline-card, .group:hover .timeline-card-desktop {
+  box-shadow: var(--shadow-md);
+}
+
+.timeline-card-desktop {
+  background: linear-gradient(to left, var(--color-bg-alt), var(--color-bg));
+}
+
+.timeline-date {
+  font-size: 1.125rem;
+}
+
+.line-through-old {
+  text-decoration: line-through;
+  opacity: 0.6;
+  font-size: 1rem;
+}
+
+.timeline-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-line {
+  position: absolute;
+  height: 6rem;
+  width: 2px;
+  background-color: #e5e7eb;
+  top: 3rem;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .timeline-line {
+    display: block;
+  }
+}
+
+.timeline-icon {
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(to bottom right, var(--color-accent), var(--color-primary));
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  font-size: 1.5rem;
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+.group:hover .timeline-icon {
+  transform: scale(1.1);
+}
+
+.timeline-mobile-title {
+  display: block;
+  flex: 1;
+  margin-left: 1.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--color-text-dark);
+}
+
+@media (min-width: 768px) {
+  .timeline-mobile-title {
+    display: none;
+  }
+}
+
+.timeline-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-text-dark);
+}

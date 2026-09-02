@@ -1,0 +1,82 @@
+.awards-section {
+  position: relative;
+  background: linear-gradient(to bottom right, var(--color-accent), var(--color-accent-dark), #ea580c);
+  overflow: hidden;
+}
+
+.awards-bg-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="%23ffffff" fill-opacity="0.1"/></svg>');
+  background-size: 20px 20px;
+  opacity: 0.5;
+}
+
+.awards-medal-bg {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+.bg-white {
+  background: var(--color-bg);
+}
+
+.text-yellow-200 {
+  color: #fef08a;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.award-card {
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-xl);
+}
+
+.award-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.award-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.award-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.award-desc {
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+@keyframes floatMedal {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-float-medal {
+  animation: floatMedal 6s ease-in-out infinite;
+}

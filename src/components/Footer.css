@@ -1,0 +1,80 @@
+.footer-section {
+  background: linear-gradient(to bottom, var(--color-text-dark), #000000);
+  color: var(--color-text-white);
+  padding: 4rem 0;
+}
+
+.footer-logo-box {
+  background-color: var(--color-bg);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.footer-title {
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-desc {
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  line-height: 1.625;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-links-list a {
+  color: var(--color-text-light);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links-list a:hover {
+  color: var(--color-accent);
+}
+
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+}
+
+.footer-contact-list p {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.footer-divider {
+  height: 1px;
+  width: 100%;
+  background-color: #374151;
+  margin: 2.5rem 0;
+}
+
+.footer-bottom {
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-links-col {
+    margin: 0 auto;
+  }
+}
