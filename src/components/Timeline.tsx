@@ -13,8 +13,7 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
-                <div className="timeline-date line-through-old">30th September 2025</div>
-                <div className="timeline-date text-primary font-bold">14th October 2025</div>
+                <div className="timeline-date text-primary font-bold">September 30, 2026</div>
               </div>
             </div>
             <div className="timeline-icon-wrapper">
@@ -36,7 +35,7 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
-                <div className="timeline-date text-primary font-bold">30th October 2025</div>
+                <div className="timeline-date text-primary font-bold">October 30, 2026</div>
               </div>
             </div>
             <div className="timeline-icon-wrapper">
@@ -54,7 +53,7 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
-                <div className="timeline-date text-primary font-bold">15th November 2025</div>
+                <div className="timeline-date text-primary font-bold">November 15, 2026</div>
               </div>
             </div>
             <div className="timeline-icon-wrapper">
@@ -72,7 +71,7 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
-                <div className="timeline-date text-primary font-bold">11th December 2025</div>
+                <div className="timeline-date text-primary font-bold">December 2, 2026</div>
               </div>
             </div>
             <div className="timeline-icon-wrapper">

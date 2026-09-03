@@ -8,10 +8,11 @@ export default function Guidelines() {
     "Earth Resources Engineering",
     "Electrical Engineering",
     "Electronic and Telecommunication Engineering",
-    "Material Science and Engineering",
+    "Materials Science and Engineering",
     "Mechanical Engineering",
     "Supply Chain Management and Logistics",
-    "Textile and Apparel Engineering"
+    "Textile and Apparel Engineering",
+    "Transport Management and Logistics Engineering"
   ];
 
   return (
@@ -75,7 +76,7 @@ export default function Guidelines() {
         </div>
 
         <div className="tracks-container mt-16">
-          <p className="tracks-title">ERU 2025 accepts extended abstracts of research under following tracks</p>
+          <p className="tracks-title">ERU 2026 accepts extended abstracts of research under following tracks</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {tracks.map((track, index) => (
               <div key={index} className="track-item">

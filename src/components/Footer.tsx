@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-4 mb-6">
               <div className="footer-logo-box">
-                <Image src={uniLogo} alt="ERU symposium 2025" style={{ width: 'auto', height: '80px', objectFit: 'cover' }} />
+                <Image src={uniLogo} alt="ERU symposium 2026" style={{ width: 'auto', height: '80px', objectFit: 'cover' }} />
               </div>
               <h2 className="footer-title">ERU Symposium</h2>
             </div>
@@ -35,9 +35,8 @@ export default function Footer() {
             <h3 className="footer-heading text-accent">Contact Us</h3>
             <div className="footer-contact-list">
               <p><span>📍</span> <span>Engineering Research Unit (ERU)<br/>Faculty of Engineering<br/>University of Moratuwa<br/>Katubedda, Moratuwa, Sri Lanka</span></p>
-              <p><span>📧</span> amantham@uom.lk</p>
+              <p><span>📧</span> gayanin@uom.lk</p>
               <p><span>📞</span> +94 11 265 0301 (Ext: 4531)</p>
-              <p><span>📱</span> +94 71 267 7220 (Amantha)</p>
             </div>
           </div>
         </div>
@@ -45,7 +44,7 @@ export default function Footer() {
         <div className="footer-divider"></div>
         
         <div className="flex flex-col md:flex-row justify-between items-center footer-bottom">
-          <p>© 2025 ERU Symposium. All rights reserved.</p>
+          <p>© 2026 ERU Symposium. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -10,13 +10,13 @@ export default function Hero() {
       <div className="container relative h-full flex flex-col justify-center items-center">
         <div className="text-center">
           <h1 className="hero-title animate-fade-in-up delay-100">
-            ERU <span className="hero-highlight animate-pulse">Symposium</span> 2025
+            ERU <span className="hero-highlight animate-pulse">Symposium</span> 2026
           </h1>
           <p className="hero-description animate-fade-in-up delay-300">
-            ERU Symposium, organized by Faculty of Engineering, University of Moratuwa, provides a platform for researchers to showcase their latest research and innovations. The symposium brings academics, industry professionals, and students together for knowledge sharing and future collaboration.
+            ERU Research Symposium 2026 is organized as an event parallel to the University of Moratuwa Research Week in collaboration with Sri Lanka Association for the Advancement of Science (SLAAS). ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
           </p>
           <div className="hero-date-badge animate-fade-in-up delay-500">
-            📅 December 11, 2025 | 📍 University of Moratuwa
+            📅 December 2, 2026 | 📍 University of Moratuwa
           </div>
           <div className="mt-10 animate-fade-in-up delay-500">
             <a href="#about" className="btn btn-hero">Learn More</a>
