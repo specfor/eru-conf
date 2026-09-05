@@ -2,18 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import img1 from '../images/gallery/DSC_0071.jpg';
-import img2 from '../images/gallery/DSC_0147.jpg';
-import img3 from '../images/gallery/DSC_0193.jpg';
-import img4 from '../images/gallery/DSC_0229.jpg';
-import img5 from '../images/gallery/DSC_0257.jpg';
-import img6 from '../images/gallery/_MG_0533.jpg';
-import img7 from '../images/gallery/_MG_0540.jpg';
-import img8 from '../images/gallery/_MG_0608.jpg';
-import img9 from '../images/gallery/_MG_0619.jpg';
-import img10 from '../images/gallery/_MG_0741.jpg';
-import img11 from '../images/gallery/_MG_0830.jpg';
-import img12 from '../images/gallery/_MG_0839.jpg';
+import img1 from '../images/gallery/DSC_0071.webp';
+import img2 from '../images/gallery/DSC_0147.webp';
+import img3 from '../images/gallery/DSC_0193.webp';
+import img4 from '../images/gallery/DSC_0229.webp';
+import img5 from '../images/gallery/DSC_0257.webp';
+import img6 from '../images/gallery/_MG_0533.webp';
+import img7 from '../images/gallery/_MG_0540.webp';
+import img8 from '../images/gallery/_MG_0608.webp';
+import img9 from '../images/gallery/_MG_0619.webp';
+import img10 from '../images/gallery/_MG_0741.webp';
+import img11 from '../images/gallery/_MG_0830.webp';
+import img12 from '../images/gallery/_MG_0839.webp';
 import './Gallery.css';
 
 export default function Gallery() {
