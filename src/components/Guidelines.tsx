@@ -30,7 +30,7 @@ export default function Guidelines() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 guidelines-cards-container mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 guidelines-cards-container mt-12">
           <div className="guidelines-card">
             <div className="guidelines-card-header">
               <div className="guidelines-card-icon">📄</div>

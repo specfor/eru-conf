@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import medalImg from '../images/medal.png';
 import './Awards.css';
 
 export default function Awards() {
@@ -32,7 +34,7 @@ export default function Awards() {
   return (
     <section id="awards" className="section awards-section">
       <div className="awards-bg-pattern"></div>
-      <img src="https://placehold.co/400x400/transparent/fff?text=Medal" alt="Medal" className="awards-medal-bg animate-float-medal" width={400} height={400} />
+      <Image src={medalImg} alt="Medal" className="awards-medal-bg animate-float-medal" width={600} height={600} />
       
       <div className="container relative z-10">
         <div className="text-center mb-12">

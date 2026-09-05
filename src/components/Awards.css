@@ -14,10 +14,21 @@
 
 .awards-medal-bg {
   position: absolute;
-  top: 5rem;
-  right: 0;
+  top: 10%;
+  right: -5%;
   z-index: 0;
-  opacity: 0.2;
+  opacity: 0.35;
+  width: 600px;
+  height: auto;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .awards-medal-bg {
+    width: 350px;
+    right: -10%;
+    top: 5%;
+  }
 }
 
 .bg-white {
