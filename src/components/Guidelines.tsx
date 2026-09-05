@@ -40,7 +40,7 @@ export default function Guidelines() {
               The extended abstracts should be of A4 size - Two (2) pages, prepared according to this template
             </div>
             <div className="guidelines-card-footer">
-              <a href="#" className="btn btn-outline">Download Template</a>
+              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
             </div>
           </div>
           
@@ -53,7 +53,7 @@ export default function Guidelines() {
               The posters should be of A1 size - Portrait, adhering to the given guidelines and the template
             </div>
             <div className="guidelines-card-footer">
-              <a href="#" className="btn btn-outline">Download Template</a>
+              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
             </div>
           </div>
           
@@ -66,7 +66,7 @@ export default function Guidelines() {
               You can also refer to the sample poster design
             </div>
             <div className="guidelines-card-footer">
-              <a href="#" className="btn btn-outline">Download Template</a>
+              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
             </div>
           </div>
         </div>

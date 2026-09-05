@@ -1,22 +1,26 @@
+import Image from 'next/image';
+import drGamageImg from '../images/oc/Dr.JR_Gamage.jpg';
+import drGayaniImg from '../images/oc/Dr.Gayani.jpg';
+import drKasunImg from '../images/oc/Dr.Kasun.jpg';
 import './Team.css';
 
 export default function Team() {
   const chair = {
     name: "Dr. J.R Gamage",
     role: "Symposium Chair",
-    image: "https://placehold.co/250x250/ccc/333?text=JR+Gamage"
+    image: drGamageImg
   };
 
   const coChairs = [
     {
       name: "Dr. Gayani K. Nandasiri",
       role: "Symposium Co-Chair",
-      image: "https://placehold.co/200x200/ccc/333?text=Gayani+Nandasiri"
+      image: drGayaniImg
     },
     {
       name: "Dr. Kasun De Silva",
       role: "Symposium Co-Chair",
-      image: "https://placehold.co/200x200/ccc/333?text=Kasun+De+Silva"
+      image: drKasunImg
     }
   ];
 
@@ -59,7 +63,7 @@ export default function Team() {
               <div className="team-card team-card-lg">
                 <div className="team-img-wrapper">
                   <div className="team-img-overlay"></div>
-                  <img src={chair.image} alt={chair.name} className="team-img" width={250} height={250} />
+                  <Image src={chair.image} alt={chair.name} className="team-img" width={250} height={250} />
                 </div>
                 <div className="team-card-body">
                   <p className="team-name text-lg">{chair.name}</p>
@@ -77,7 +81,7 @@ export default function Team() {
                 <div key={index} className="team-card team-card-md">
                   <div className="team-img-wrapper">
                     <div className="team-img-overlay"></div>
-                    <img src={member.image} alt={member.name} className="team-img" width={200} height={200} />
+                    <Image src={member.image} alt={member.name} className="team-img" width={200} height={200} />
                   </div>
                   <div className="team-card-body">
                     <p className="team-name text-md">{member.name}</p>
@@ -96,7 +100,7 @@ export default function Team() {
                 <div key={index} className="team-card team-card-md mx-auto-mobile">
                   <div className="team-img-wrapper">
                     <div className="team-img-overlay"></div>
-                    <img src={member.image} alt={member.name} className="team-img" width={200} height={200} />
+                    <Image src={member.image} alt={member.name} className="team-img" width={200} height={200} />
                   </div>
                   <div className="team-card-body">
                     <p className="team-name text-md">{member.name}</p>
