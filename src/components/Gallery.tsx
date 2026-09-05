@@ -1,15 +1,23 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import img1 from '../images/gallery/DSC_0071.jpg';
+import img2 from '../images/gallery/DSC_0147.jpg';
+import img3 from '../images/gallery/DSC_0193.jpg';
+import img4 from '../images/gallery/DSC_0229.jpg';
+import img5 from '../images/gallery/DSC_0257.jpg';
+import img6 from '../images/gallery/_MG_0533.jpg';
+import img7 from '../images/gallery/_MG_0540.jpg';
+import img8 from '../images/gallery/_MG_0608.jpg';
+import img9 from '../images/gallery/_MG_0619.jpg';
+import img10 from '../images/gallery/_MG_0741.jpg';
+import img11 from '../images/gallery/_MG_0830.jpg';
+import img12 from '../images/gallery/_MG_0839.jpg';
 import './Gallery.css';
 
 export default function Gallery() {
-  const images = [
-    "https://placehold.co/1200x600/450a0a/fff?text=Symposium+Gallery+1",
-    "https://placehold.co/1200x600/ca8a04/fff?text=Symposium+Gallery+2",
-    "https://placehold.co/1200x600/111827/fff?text=Symposium+Gallery+3",
-    "https://placehold.co/1200x600/7f1d1d/fff?text=Symposium+Gallery+4"
-  ];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -36,20 +44,20 @@ export default function Gallery() {
               key={index}
               className={`gallery-slide ${index === currentIndex ? 'active' : ''}`}
             >
-              <img src={img} alt={`Gallery slide ${index + 1}`} className="gallery-img" />
+              <Image src={img} alt={`Gallery slide ${index + 1}`} fill style={{ objectFit: 'cover' }} priority={index === 0} />
             </div>
           ))}
-          
-          <div className="gallery-indicators">
-            {images.map((_, index) => (
-              <button
-                key={index}
-                className={`gallery-indicator ${index === currentIndex ? 'active' : ''}`}
-                onClick={() => setCurrentIndex(index)}
-                aria-label={`Go to slide ${index + 1}`}
-              ></button>
-            ))}
-          </div>
+        </div>
+        
+        <div className="gallery-indicators">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              className={`gallery-indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => setCurrentIndex(index)}
+              aria-label={`Go to slide ${index + 1}`}
+            ></button>
+          ))}
         </div>
       </div>
     </section>
