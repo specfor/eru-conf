@@ -25,26 +25,26 @@ export default function Team() {
   ];
 
   const committee = [
-    {
-      name: "Mr Shanaka Dasanayaka",
-      role: "Local Organizing Chair",
-      image: "https://placehold.co/200x200/ccc/333?text=Shanaka"
-    },
-    {
-      name: "Mr Amantha Mawathage",
-      role: "Local Organizing Chair",
-      image: "https://placehold.co/200x200/ccc/333?text=Amantha"
-    },
-    {
-      name: "Ms Nisali Dharmasri",
-      role: "Local Organizing Chair",
-      image: "https://placehold.co/200x200/ccc/333?text=Nisali"
-    },
-    {
-      name: "Anushka Subasinghe",
-      role: "Webmaster",
-      image: "https://placehold.co/200x200/ccc/333?text=Anushka"
-    }
+    // {
+    //   name: "Mr Shanaka Dasanayaka",
+    //   role: "Local Organizing Chair",
+    //   image: "https://placehold.co/200x200/ccc/333?text=Shanaka"
+    // },
+    // {
+    //   name: "Mr Amantha Mawathage",
+    //   role: "Local Organizing Chair",
+    //   image: "https://placehold.co/200x200/ccc/333?text=Amantha"
+    // },
+    // {
+    //   name: "Ms Nisali Dharmasri",
+    //   role: "Local Organizing Chair",
+    //   image: "https://placehold.co/200x200/ccc/333?text=Nisali"
+    // },
+    // {
+    //   name: "Anushka Subasinghe",
+    //   role: "Webmaster",
+    //   image: "https://placehold.co/200x200/ccc/333?text=Anushka"
+    // }
   ];
 
   return (
@@ -93,7 +93,7 @@ export default function Team() {
           </div>
 
           {/* Organizing Committee */}
-          <div className="team-group">
+          {/* <div className="team-group">
             <h3 className="team-group-title">Organizing Committee</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
               {committee.map((member, index) => (
@@ -109,7 +109,7 @@ export default function Team() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
