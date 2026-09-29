@@ -12,7 +12,9 @@ export default function Guidelines() {
     "Mechanical Engineering",
     "Supply Chain Management and Logistics",
     "Textile and Apparel Engineering",
-    "Transport Management and Logistics Engineering"
+    "Transport Management and Logistics Engineering",
+    "Engineering Mathematics",
+    "Statistics"
   ];
 
   return (
@@ -53,7 +55,7 @@ export default function Guidelines() {
               The posters should be of A1 size - Portrait, adhering to the given guidelines and the template
             </div>
             <div className="guidelines-card-footer">
-              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
+              <a href="4.ERUSPosterGuidelines.pdf" className="btn btn-outline">Download Template</a>
             </div>
           </div>
           
@@ -72,7 +74,7 @@ export default function Guidelines() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <a href="#" className="btn btn-submit animate-pulse">Submit Your Work</a>
+          <a href="https://cmt3.research.microsoft.com/ERUS2026/Track/1/Submission/Create" className="btn btn-submit animate-pulse">Submit Your Work</a>
         </div>
 
         <div className="tracks-container mt-16">
