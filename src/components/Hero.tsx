@@ -13,7 +13,7 @@ export default function Hero() {
             ERU <span className="hero-highlight animate-pulse">Symposium</span> 2026
           </h1>
           <p className="hero-description animate-fade-in-up delay-300">
-            ERU Research Symposium 2026 is organized as an event parallel to the University of Moratuwa Research Week in collaboration with Sri Lanka Association for the Advancement of Science (SLAAS). ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
+            ERU Research Symposium 2026 is organized as an event parallel to the University of Moratuwa Research Week. ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
           </p>
           <div className="hero-date-badge animate-fade-in-up delay-500">
             📅 December 2, 2026 | 📍 University of Moratuwa

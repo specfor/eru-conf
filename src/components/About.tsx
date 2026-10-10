@@ -18,7 +18,7 @@ export default function About() {
           </div>
           
           <p className="about-description text-center">
-            <span className="font-bold text-primary">ERU Research Symposium-2026</span> is organized as an event parallel to the University of Moratuwa Research Week in collaboration with Sri Lanka Association for the Advancement of Science (SLAAS). ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
+            <span className="font-bold text-primary">ERU Research Symposium-2026</span> is organized as an event parallel to the University of Moratuwa Research Week. ERU Symposium provides an excellent opportunity for academics, industry practitioners, and students to showcase their research.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-4xl mt-12">
