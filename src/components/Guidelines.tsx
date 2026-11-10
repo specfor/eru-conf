@@ -42,7 +42,7 @@ export default function Guidelines() {
               The extended abstracts should be of A4 size - Two (2) pages, prepared according to this template
             </div>
             <div className="guidelines-card-footer">
-              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
+              <a href="ERU-Extended-Abstract_Template.docx" className="btn btn-outline">Download Template</a>
             </div>
           </div>
           

@@ -35,7 +35,7 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
-                <div className="timeline-date text-primary font-bold">October 30, 2026</div>
+                <div className="timeline-date text-primary font-bold">November 14, 2026</div>
               </div>
             </div>
             <div className="timeline-icon-wrapper">
