@@ -71,6 +71,24 @@ export default function Timeline() {
           <div className="timeline-item group">
             <div className="timeline-content left">
               <div className="timeline-card">
+                <div className="timeline-date text-primary font-bold">November 27, 2026</div>
+              </div>
+            </div>
+            <div className="timeline-icon-wrapper">
+              <div className="timeline-line"></div>
+              <div className="timeline-icon">📤</div>
+            </div>
+            <div className="timeline-content right">
+              <div className="timeline-card-desktop">
+                <div className="timeline-title">Camera Ready Submission</div>
+              </div>
+            </div>
+            <div className="timeline-mobile-title">Camera Ready Submission</div>
+          </div>
+
+          <div className="timeline-item group">
+            <div className="timeline-content left">
+              <div className="timeline-card">
                 <div className="timeline-date text-primary font-bold">December 2, 2026</div>
               </div>
             </div>

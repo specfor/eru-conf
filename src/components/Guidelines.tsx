@@ -32,7 +32,7 @@ export default function Guidelines() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 guidelines-cards-container mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 guidelines-cards-container mt-12">
           <div className="guidelines-card">
             <div className="guidelines-card-header">
               <div className="guidelines-card-icon">📄</div>
@@ -69,6 +69,32 @@ export default function Guidelines() {
             </div>
             <div className="guidelines-card-footer">
               <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
+            </div>
+          </div>
+
+          <div className="guidelines-card">
+            <div className="guidelines-card-header">
+              <div className="guidelines-card-icon">✍️</div>
+              <h3>Declaration of Originality and Authorship</h3>
+            </div>
+            <div className="guidelines-card-body">
+              Declaration form confirming original contribution, academic ethics, and author signatures
+            </div>
+            <div className="guidelines-card-footer">
+              <a href="5 - DECLARATION OF ORIGINALITY AND AUTHORSHIP.docx" download className="btn btn-outline">Download Template</a>
+            </div>
+          </div>
+
+          <div className="guidelines-card">
+            <div className="guidelines-card-header">
+              <div className="guidelines-card-icon">💬</div>
+              <h3>Detailed Rebuttal Form</h3>
+            </div>
+            <div className="guidelines-card-body">
+              Template for demonstrating resolution and detailed responses to reviewer concerns
+            </div>
+            <div className="guidelines-card-footer">
+              <a href="6 - DETAILED REBUTTAL DEMONSTRATING RESOLUTION OF REVIEWER CONCERNS.docx" download className="btn btn-outline">Download Template</a>
             </div>
           </div>
         </div>
