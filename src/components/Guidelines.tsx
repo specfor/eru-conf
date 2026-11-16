@@ -49,26 +49,26 @@ export default function Guidelines() {
           <div className="guidelines-card">
             <div className="guidelines-card-header">
               <div className="guidelines-card-icon">🖼️</div>
-              <h3>Poster</h3>
+              <h3>Poster Template</h3>
             </div>
             <div className="guidelines-card-body">
-              The posters should be of A1 size - Portrait, adhering to the given guidelines and the template
+              The official A1 size portrait poster template for your presentation
             </div>
             <div className="guidelines-card-footer">
-              <a href="4.ERUSPosterGuidelines.pdf" className="btn btn-outline">Download Template</a>
+              <a href="ERUS2026 - Poster Template.pdf" download className="btn btn-outline">Download Template</a>
             </div>
           </div>
           
           <div className="guidelines-card">
             <div className="guidelines-card-header">
-              <div className="guidelines-card-icon">🎨</div>
-              <h3>Sample Poster Design</h3>
+              <div className="guidelines-card-icon">📋</div>
+              <h3>Poster Guidelines</h3>
             </div>
             <div className="guidelines-card-body">
-              You can also refer to the sample poster design
+              Guidelines and formatting specifications for preparing poster presentations
             </div>
             <div className="guidelines-card-footer">
-              <a href="https://dms.uom.lk/s/AXHr9Wd8DkBiNR3" className="btn btn-outline">Download Template</a>
+              <a href="4.ERUSPosterGuidelines.pdf" download className="btn btn-outline">Download Guidelines</a>
             </div>
           </div>
 
