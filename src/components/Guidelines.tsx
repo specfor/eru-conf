@@ -48,11 +48,24 @@ export default function Guidelines() {
           
           <div className="guidelines-card">
             <div className="guidelines-card-header">
-              <div className="guidelines-card-icon">🖼️</div>
-              <h3>Poster Template</h3>
+              <div className="guidelines-card-icon">📊</div>
+              <h3>Poster Template (PPTX)</h3>
             </div>
             <div className="guidelines-card-body">
-              The official A1 size portrait poster template for your presentation
+              The official A1 size portrait editable PowerPoint template for your presentation
+            </div>
+            <div className="guidelines-card-footer">
+              <a href="ERUS2026 - Poster Template.pptx" download className="btn btn-outline">Download Template</a>
+            </div>
+          </div>
+
+          <div className="guidelines-card">
+            <div className="guidelines-card-header">
+              <div className="guidelines-card-icon">🖼️</div>
+              <h3>Poster Template (PDF)</h3>
+            </div>
+            <div className="guidelines-card-body">
+              The official A1 size portrait PDF poster template for your presentation
             </div>
             <div className="guidelines-card-footer">
               <a href="ERUS2026 - Poster Template.pdf" download className="btn btn-outline">Download Template</a>
